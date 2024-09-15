@@ -1,0 +1,205 @@
+* {
+    font-family: 'Inter', sans-serif;
+  }
+/* Navbar container */
+.navbar {
+    padding: 20px;
+    padding-top: 40px;
+}
+
+/* Navbar options */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+
+a.navbar-brand h1 {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 24px !important;
+    font-weight: bolder;
+    color: #333;
+}
+
+.btn-dark {
+    border-radius: 0px !important;
+    padding: 15px !important;
+}
+
+.quote-button {
+   margin-right: 20px;
+   margin-left: auto;
+   color: white !important;
+}
+
+.footer {
+    margin: 30px;
+}
+
+footer h4 {
+    font-weight: bold;
+}
+
+.social-media-buttons a button {
+border-radius: 20px;
+padding: 8px;
+font-size: 20px !important;
+margin: 10px;
+}
+
+.btn-li {
+    background-color: #007bb5 !important;
+    color: white !important;
+}
+.btn-emails {
+    background-color: #f0f0f0 !important;
+}
+.v-big {
+    font-size: 80px !important;
+    font-weight: bolder !important;
+}
+.main-jumbo {
+    margin-top: 80px !important;
+    background: none !important;
+}
+.services {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.services-blurb {
+    min-height: 220px;
+}
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.carousel-item {
+    display: none;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-caption h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.headshot {
+    height: 350px;
+}
+.service-para {
+    padding: 20px;
+}
+.gallery img {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+.modal-body .carousel .carousel-inner .carousel-item img {
+    width: auto; /* Let the image decide its own width */
+    height: auto; /* Maintain the image's aspect ratio */
+    max-height: 100%; /* Set a maximum height so the image doesn't overflow the viewport */
+    max-width: 100%; /* Ensure the image never exceeds the width of the modal */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Make sure the image is treated as a block element */
+}
+.modal-header .close {
+    /* Position the close button in the top-right corner */
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border: none;
+    background: none;
+}
+.custom-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.custom-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+}
+
+.custom-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.custom-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.custom-card .read-more {
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.custom-card .read-more:hover {
+    text-decoration: underline;
+}
+.text-bold {
+    font-weight: 900 !important;
+    font-family: 'Inter Bold', sans-serif;
+}
